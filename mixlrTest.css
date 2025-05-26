@@ -23,7 +23,7 @@
 }
 
 .section2TextWrapper{
-    width: 500px;
+    width: 360px;
 }
 .section2TextWrapper>h2{
   font-family: Poppins;
@@ -60,13 +60,12 @@
     text-decoration: none;
     color: black;
 }
-@media screen and (max-width: 1024) {
+@media screen and (max-width: 1024px) {
    .Section2ImgWrapper img {
     width: 280px !important;
   }
 
   .section2TextWrapper{
-    width: 350px;
     padding: 40px;
 
 }
@@ -86,15 +85,36 @@
     flex-direction: column !important;
   }
 
+
+   .section1TextWrapper{
+    width: 380px;
+  }
+
+  .section1TextWrapper>h1{
+  font-family: poppins;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.section1TextWrapper>p{
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: normal;
+  color: black;
+  margin-bottom: 25px;
+}
+
   .section2TextWrapper{
     width: 300px;
 }
 
   .section2TextWrapper >h2{
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 25px;
-  font-weight: 300;
+  font-weight: bold;
   color: black;
   width: 361px; 
 }
@@ -102,8 +122,8 @@
   
   .section2TextWrapper>p{
   font-family: Poppins;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 12px;
   font-weight: 500;
   color: blcak;
    
